@@ -17,6 +17,7 @@ namespace MyWeb {
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder => {
+                    webBuilder.UseWebRoot("wwwroot/_content/YourWeb");
                     webBuilder.UseStartup<Startup>();
                 });
     }

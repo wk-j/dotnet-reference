@@ -1,7 +1,10 @@
 ## Reference
 
+Consume static assets from class library (YourWeb)
+
 ```bash
-dotnet publish src/MyWeb -o .publish/X -r win10-x64
+dotnet publish src/MyWeb -o .publish/X
+curl http://localhost:5000/index.html
 ```
 
 ## Resource

@@ -2,7 +2,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\YourWeb\YourWeb.csproj" />
-    <StaticFilesRoot>dist</StaticFilesRoot>
   </ItemGroup>
 
   <PropertyGroup>
