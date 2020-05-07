@@ -9,6 +9,12 @@ dotnet publish src/MyService -o .publish/W -r win10-x64
 curl http://localhost:5000/index.html
 ```
 
+## Service
+
+```bash
+New-LocalUser -Name MyService
+```
+
 ## Resource
 
 - https://github.com/dotnet/aspnetcore/issues/6349

@@ -18,7 +18,7 @@ namespace MyService {
             Host.CreateDefaultBuilder(args)
                 .UseWindowsService()
                 .ConfigureWebHostDefaults(webBuilder => {
-                    webBuilder.UseWebRoot("wwwroot/_content/MyWeb");
+                    webBuilder.UseWebRoot("wwwroot/_content/YourWeb");
                     webBuilder.UseStartup<Startup>();
                 });
     }

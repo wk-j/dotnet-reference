@@ -1,9 +1,7 @@
 using System;
 
-namespace MyService
-{
-    public class WeatherForecast
-    {
+namespace MyService {
+    public class WeatherForecast {
         public DateTime Date { get; set; }
 
         public int TemperatureC { get; set; }
